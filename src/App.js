@@ -1,11 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
-import Home from "./component/demo/Home";
+import BaiTapThucHanhLayOut from "./BaiTapThucHanhLayout/BaiTapThucHanhLayOut";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      <BaiTapThucHanhLayOut />
     </div>
   );
 }
